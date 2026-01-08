@@ -1,0 +1,15 @@
+{
+  "/api": {
+    "target": "https://fakestoreapi.com",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/users": {
+    "target": "https://jsonplaceholder.typicode.com",
+    "pathRewrite": { "^/users": "/users" },
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
