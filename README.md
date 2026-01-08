@@ -64,6 +64,10 @@ Deterministic login → dashboard → logout flow
 Clear error messages
 Retry option for failed API calls
 
+6. Test Credentials
+Use any valid FakeStore credentials, for example:
+username: mor_2314
+password: 83r5^_
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
 
 ## Development server
